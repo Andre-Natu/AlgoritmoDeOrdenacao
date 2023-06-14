@@ -1,10 +1,5 @@
 public class QuickSort {
 
-    /*
-     * uncomment printArray(array); to follow the sorting steps. But It will affect
-     * the Performance
-     */
-
     private QuickSort() {
     }
 
@@ -26,7 +21,7 @@ public class QuickSort {
                 i++;
                 j--;
             }
-            // printArray(array);
+
         }
         if (low < j) {
             Qsort(array, low, j);
