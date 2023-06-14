@@ -1,10 +1,5 @@
 public class MergeSort {
 
-	/*
-	 * uncomment printArray(array); to follow the sorting steps. But It will affect
-	 * the Performance
-	 */
-
 	private static int[] array;
 
 	private MergeSort() {
@@ -25,11 +20,11 @@ public class MergeSort {
 		for (i = first; i <= mid; i++) {
 			sort[i] = array[i];
 		}
-		// printArray(sort);
+
 		for (j = mid + 1; j <= last; j++) {
 			sort[last + mid + 1 - j] = array[j];
 		}
-		// printArray(sort);
+
 		i = first;
 		j = last;
 		for (int k = i; k <= last; k++) {
@@ -41,7 +36,7 @@ public class MergeSort {
 				j--;
 			}
 		}
-		// printArray(array);
+
 	}
 
 	private static void printArray(int[] array) {
