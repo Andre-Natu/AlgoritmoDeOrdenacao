@@ -25,8 +25,6 @@ public class Main {
 
 		System.out.println();
 
-		/*-----Printing the random Arrays-------*/
-		/* Uncomment to Print the arrays */
 		// print(arrayB, arrayI, arrayM, arrayQ, arrayS, arrayR);
 
 		/* -----------BubbleSort------------ */
@@ -74,8 +72,6 @@ public class Main {
 		System.out.println("RadixSort: " + timeElapsed + " ms");
 		leaderboard.put("Radix Sort", timeElapsed);
 
-		/*-------Printing the Result--------*/
-		/* Uncomment to Print the arrays */
 		// print(arrayB, arrayI, arrayM, arrayQ, arrayS, arrayR);
 
 		System.out.println("\n ************* Leaderboard *************\n");
